@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color Changer</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background-color 0.5s;
+  }
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  #start {
+    background-color: #008CBA; /* Teal */
+    color: white;
+  }
+  #stop {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+</style>
+</head>
+<body>
+<button id="start">Start</button>
+<button id="stop">Stop</button>
+
+<script src="script.js"></script>
+</body>
+</html>
